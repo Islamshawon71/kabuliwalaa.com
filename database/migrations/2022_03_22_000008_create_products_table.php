@@ -13,7 +13,7 @@ class CreateProductsTable extends Migration
             $table->string('name')->nullable();
             $table->string('slug')->nullable()->unique();
             $table->string('code')->nullable();
-            $table->decimal('regular_price', 15, 2)->nullable();
+            $table->string('regular_price')->nullable();
             $table->string('sale_price')->nullable();
             $table->longText('description')->nullable();
             $table->string('priority')->nullable();

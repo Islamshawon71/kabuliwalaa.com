@@ -103,3 +103,29 @@ div.dt-button-collection {
     background-color: rgba(128, 128, 128, 0.1);
     font-weight: bolder;
 }
+.main-content .content{
+    padding: 0px;
+    margin: 0px;
+}
+#status{
+    position: unset;
+    left: auto;
+    top: auto;
+    -webkit-transform: unset;
+    transform: unset;
+    margin: unset;
+}
+.form-group {
+    margin-bottom: 1rem!important;
+}
+.card-header:first-child {
+    font-size: 1.125rem;
+    font-weight: 500;
+    font-family: Roboto,sans-serif;
+    color: #343a40;
+    box-shadow: 1px 0 20px rgb(0 0 0 / 5%);
+    padding: 1rem 1.5rem;
+    margin-bottom: 0;
+    background-color: #edeff1;
+    border-bottom: 0 solid #eceff1;
+}
